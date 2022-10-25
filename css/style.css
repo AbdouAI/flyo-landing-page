@@ -169,6 +169,7 @@ header a:active{
   font-weight: 700;
   border-radius: .3rem;
   box-shadow: 0 5px 10px -9px black;
+  cursor: pointer;
 }
 
 .form1 .email-btn:active{
@@ -294,7 +295,7 @@ header a:active{
 }
 
 
-footer .fnav1 .email-box-2{
+footer .email-box-2{
   padding: 3.2rem 0;
   text-align: center;
   display: flex;
@@ -343,6 +344,7 @@ footer .fnav1 .email-box-2{
   font-weight: 700;
   border-radius: .3rem;
   box-shadow: 0 5px 10px -11px black;
+  cursor: pointer;
 }
 
 .form2 .email-btn-2:active{
@@ -351,13 +353,13 @@ footer .fnav1 .email-box-2{
 
 
 
-footer .fnav2{
+footer .fnav{
   background-color: hsl(243, 87%, 12%);
   min-height: 34rem;
   color: white;
 }
 
-.fnav2 img{
+.fnav img{
   width: 12rem;
   padding-top: 3rem;
   padding-left: 2.5rem;
@@ -427,7 +429,7 @@ footer .fnav2{
 
 
 @media screen and (min-width:700px) {
-  footer .fnav1 .email-box-2{
+  footer .email-box-2{
     flex-direction: row;
     gap: 7rem;
     text-align: left;
@@ -466,11 +468,11 @@ footer .fnav2{
     font-size: .6rem;
   }
   
-  footer .fnav2{
+  footer .fnav{
     min-height: fit-content;
   }
   
-  .fnav2 .logo2{
+  .fnav .logo2{
     padding-top: 5rem;
     padding-left: 4rem;
     width: 15rem;
